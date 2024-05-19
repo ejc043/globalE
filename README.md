@@ -1,4 +1,4 @@
-*Spectral entropy*
+***Spectral entropy***
 Spectral entropy is an application of Shannon entropy from information theory (1). \n
 Please [view for more documentation](https://docs.google.com/document/d/1tOoKTudIaQwRFRsWvQ1QJ-Z4d3uWjV11klk7XFXWLuQ/edit). \n
 Brief steps:
