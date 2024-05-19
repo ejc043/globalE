@@ -11,7 +11,7 @@ size=200
 species='hg38'
 blacklist_path=/stg3/data1/eunice/Annotation/hg38blacklist/hg38-blacklist.bed
 telomere_path='/stg3/data1/eunice/Annotation/UCSC/hg38_telomere_centromere_UCSC_GAP.bed'
-parent_dir=
+
 final_output_name=${species}_res.${resolution}.bed 
 
 # #### resolution bed file indexed
