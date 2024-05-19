@@ -1,5 +1,5 @@
 # Spectral entropy
-Spectral entropy is an application of Shannon entropy from information theory (1). <br>
+Spectral entropy is an application of Shannon entropy from information theory (1, 2). <br>
 Please [view for more documentation](https://docs.google.com/document/d/1tOoKTudIaQwRFRsWvQ1QJ-Z4d3uWjV11klk7XFXWLuQ/edit). <br>
 Brief steps:<br>
 1. Create reference file with `./makeCustomGenomeSizes.sh` ; change `species`, `blacklist_path`, and `telomere_path` ; if using hg38, you can use `/new-stg/home/eunice_2/Entropy/00_LocalKL/18_new/hg38_res.3000.bed_res.3000.bed.size.200.bed` and skip this step. 
@@ -9,3 +9,4 @@ Brief steps:<br>
 
 References
 1. Shannon, C. E. A mathematical theory of communication. Bell Syst. Tech. J. 27, 379–423 (1948).
+2. Li, Y., Kind, T., Folz, J. et al. Spectral entropy outperforms MS/MS dot product similarity for small-molecule compound identification. Nat Methods 18, 1524–1531 (2021). 
