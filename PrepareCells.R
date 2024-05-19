@@ -12,7 +12,8 @@ num_bulk = 200
 
 
 #### verify that @data slot is updated 
-seurat = readRDS('/stg3/data1/eunice/Projects/Entropy/MethodDevepment_AllDefs_230716/script/07_AllDisease/00_data/00_scAlzheimers/seurat.rds') %>% 
+seurat_path = '/stg3/data1/eunice/Projects/Entropy/MethodDevepment_AllDefs_230716/script/07_AllDisease/00_data/00_scAlzheimers/seurat.rds'
+seurat = readRDS(seurat_path) %>% 
     NormalizeData()
 
 ##### set conditions
