@@ -23,7 +23,7 @@ py_array=${codedir}/spectralE.py
 
 #### inputfiles
 intersect_input=${outputdir}/.input
-find ${inputdir} -type f -name "Control*.bdg" > ${intersect_input}
+find ${inputdir} -type f -name "*.bdg" > ${intersect_input}
 
 
 
@@ -48,7 +48,7 @@ wait
 ################### STEP 2 ######################
 #### inputfiles
 ge_input=${outputdir}/.input
-find ${intersect_out} -type f -name "Control*bdg" > ${ge_input}
+find ${intersect_out} -type f -name "*bdg" > ${ge_input}
 
 ### globalE
 FILECOUNT=$(wc -l < "${ge_input}")
