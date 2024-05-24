@@ -18,7 +18,7 @@ final_output_name=${species}_res.${resolution}.bed
 fetchChromSizes ${species} | awk -v FS="\t" -v OFS="\t" '{ print $1, "0", $2; }' | bedops --chop "$((${resolution}-1))" --stagger ${resolution}  -  > $final_output_name
 
 #### split by 200bp
-cat $final_output_name | bedops --chop $((${size})) --stagger ${size} -  | \
+cat $final_output_name | bedops --chop ${size} --stagger ${size} -  | \
     bedtools intersect -a stdin -b ${blacklist_path}  ${telomere_path} -v \
     > $(basename ${final_output_name}_res.${resolution}.bed ).size.${size}.bed
 
